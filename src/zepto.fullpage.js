@@ -226,7 +226,7 @@
         if (!fullpage) {
             fullpage = new Fullpage($(this), option);
         }
-        return this;
+        return fullpage;
     };
     $.fn.fullpage.version = '0.5.0';
     //暴露方法
